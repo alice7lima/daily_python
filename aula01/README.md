@@ -8,7 +8,7 @@ Este programa recebe de entrada:
 
 A partir dos valores de salário e porcentagem do bônus, o programa calcula o cálculo do KPI do bônus.
 
-## Requisitos para a execução do programa
+### Requisitos para a execução do programa
 
 python 3.11.5
 
