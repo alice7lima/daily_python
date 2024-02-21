@@ -14,5 +14,7 @@ python 3.11.5
 
 ### Como executar o programa
 
-```python kpi.py```
+```
+python kpi.py
+```
 
