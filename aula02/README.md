@@ -1,4 +1,4 @@
-# Dia 1: cálculo de bônus com entrada do usuário
+# Dia 2: Ajustando o código da aula 1, adicionando tratamentos de exceções.
 
 Este programa recebe de entrada:
 
