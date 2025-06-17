@@ -177,3 +177,5 @@ pyrightconfig.json
 
 #dados
 *.csv
+*.json
+*.parquet
