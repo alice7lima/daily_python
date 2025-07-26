@@ -1,0 +1,1 @@
+Nessa aula, foi utilizada a API [PokéAPI](https://pokeapi.co/). Para me desafiar e explorar mais o uso de endpoints de uma API, optei por utilizar a [API do Spotify](https://developer.spotify.com/documentation/web-api).
