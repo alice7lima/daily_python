@@ -1,6 +1,7 @@
-from sqlalchemy import Column, Integer, String, DateTime
-from sqlalchemy.sql import func
 from db import Base
+from sqlalchemy import Column, DateTime, Integer, String
+from sqlalchemy.sql import func
+
 
 class PodcastEpisode(Base):
     __tablename__ = 'episodes'

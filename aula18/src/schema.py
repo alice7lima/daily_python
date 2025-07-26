@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+
 class PodcastEpisodeSchema(BaseModel):
     name: str
     spotify_id: str

@@ -1,11 +1,12 @@
-import requests
-import os
-from dotenv import load_dotenv
 import base64
-from db import SessionLocal, engine, Base
+import json
+import os
+
+import requests
+from db import Base, SessionLocal, engine
+from dotenv import load_dotenv
 from models import PodcastEpisode
 from schema import PodcastEpisodeSchema
-import json
 
 load_dotenv()
 CLIENT_ID = os.getenv("SPOTIFY_API_CLIENT_ID")
@@ -13,6 +14,7 @@ CLIENT_SECRET = os.getenv("SPOTIFY_API_CLIENT_SECRET")
 REDIRECT_URI = os.getenv("REDIRECT_URI")
 
 Base.metadata.create_all(bind=engine)
+
 
 def authenticate():
     login_url = "https://accounts.spotify.com/api/token"
@@ -36,9 +38,14 @@ def authenticate():
 
 
 def fetch_podcast_episodes_data(offset=0):
-    print(offset)
     search_endpoint = "https://api.spotify.com/v1/search"
-    data = {"q": "diário de bordo", "type": "episode", "market": "BR", "limit": 10, "offset": offset}
+    data = {
+        "q": "diário de bordo",
+        "type": "episode",
+        "market": "BR",
+        "limit": 10,
+        "offset": offset,
+    }
     access_token = authenticate()
     response = requests.get(
         url=search_endpoint,
@@ -78,5 +85,3 @@ def add_episodes_to_db(episodes_schema: list[PodcastEpisodeSchema]):
             db.add(db_episode)
             db.commit()
             db.refresh(db_episode)
-            
-
