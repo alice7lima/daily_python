@@ -1,4 +1,4 @@
-# Funções `lambda` em Python
+# Funções `lambda` em Python - anotações
 
 - No python, a palavra reservada `lambda` cria uma **função anônima** dentro de uma expressão
 - Seu melhor uso é no contexto de uma lista de argumentos para uma função de ordem superior (higher-order function), como `map`, `filter`, `reduce`, `sorted`, entre outras
