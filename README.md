@@ -1,3 +1,12 @@
 # daily python
 
-Este repositório contém as minhas soluções dos desafios de python propostos no [Bootcamp Intensivo](https://github.com/lvgalvao/data-engineering-roadmap/tree/main/bootcamp) do [Luciano Galvão](https://github.com/lvgalvao).
+Repositório para documentar meus estudos de Python.
+
+- Contém minhas resoluções das atividades propostos no [Bootcamp Intensivo](https://github.com/lvgalvao/data-engineering-roadmap/tree/main/bootcamp) da Jornada de Dados - [Luciano Galvão](https://github.com/lvgalvao).
+- Contém anotações e exercícios de tópicos avançados de Python
+
+## Materiais de estudo
+
+- [Jornada de Dados](https://suajornadadedados.com.br/)
+- [Python Fluente](https://pythonfluente.com/)
+- [Real Python](https://realpython.com/)
