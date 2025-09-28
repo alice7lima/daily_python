@@ -2,7 +2,7 @@
 
 Repositório para documentar meus estudos de Python.
 
-- Contém minhas resoluções das atividades propostos no [Bootcamp Intensivo](https://github.com/lvgalvao/data-engineering-roadmap/tree/main/bootcamp) da Jornada de Dados - [Luciano Galvão](https://github.com/lvgalvao).
+- Contém minhas resoluções das atividades propostos no [Bootcamp - Python para dados](https://github.com/lvgalvao/data-engineering-roadmap/tree/main/Bootcamp%20-%20Python%20para%20dados) da Jornada de Dados - [Luciano Galvão](https://github.com/lvgalvao).
 - Contém anotações e exercícios de tópicos avançados de Python
 
 ## Materiais de estudo
